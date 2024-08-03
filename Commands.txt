@@ -1,4 +1,5 @@
-This is the commands that we used: 
+This is the linux commands that we used:
+ 
 
   289  ./colors.sh
   290  vim colors.sh
