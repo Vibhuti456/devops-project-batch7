@@ -1,0 +1,1002 @@
+This is the commands that we used: 
+
+  289  ./colors.sh
+  290  vim colors.sh
+  291  ./colors.sh
+  292  vim colors.sh
+  293  ./colors.sh
+  294  vim colors.sh
+  295  ./colors.sh
+  296  clear
+  297  cd /home/ubuntu 
+  298  ls -l
+  299  cd /Scripts
+  300  cd Scripts
+  301  ls -ltr
+  302  vim hello.sh
+  303  ./hello.sh
+  304  vim colors.sh
+  305  vim hello.sh
+  306  ./hello.sh
+  307  cd /home/ubuntu 
+  308  ls -l
+  309  scp -i "Jump_server" History ubuntu@ec2-3-19-123-103.us-east-2.compute.amazonaws.com:/home/ubuntu  C:\Users\vjain202\Downloads
+  310  scp History ubuntu@ec2-3-19-123-103.us-east-2.compute.amazonaws.com:/home/ubuntu  C:\Users\vjain202\Downloads
+  311  exit
+  312  scp -i History ubuntu@172.31.20.82:/home/ubuntu  C:\Users\vjain202\Downloads
+  313  exit
+  314  clear
+  315  cd /home/ubuntu 
+  316  ls -ltr
+  317  cd Scripts
+  318  ls -l
+  319  touch user-mgm.sh
+  320  chmod u+x user-mgm.sh
+  321  ls -l
+  322  vim user-mgm.sh
+  323  ./user-mgm.sh
+  324  vim user-mgm.sh
+  325  ./user-mgm.sh
+  326  cat /etc/passwd
+  327  cat /etc/group 
+  328  clear
+  329  vim user-mgm.sh
+  330  sudo userdel Vinna
+  331  sudo groupdel Support 
+  332  cat /etc/passwd
+  333  cat /etc/group 
+  334  clear
+  335  ./user-mgm.sh
+  336  cd ..
+  337  ls -l
+  338  cd ..
+  339  ls -l
+  340  cd /home/ubuntu 
+  341  ls -l
+  342  cd Scripts
+  343  ls -l
+  344  touch variable.sh
+  345  vim variable.sh
+  346  chmod u+x variable.sh
+  347  ls -l
+  348  ./variable.sh
+  349  vim variable.sh
+  350  ./variable.sh
+  351  vim variable.sh
+  352  ./variable.sh
+  353  vim variable.sh
+  354  ./variable.sh
+  355  clear
+  356  ./variable.sh
+  357  vim variable.sh
+  358  ./variable.sh
+  359  vim variable.sh
+  360  ./variable.sh
+  361  vim variable.sh
+  362  ./variable.sh
+  363  vim variable.sh
+  364  ./variable.sh
+  365  vim variable.sh
+  366  ./variable.sh
+  367  vim variable.sh
+  368  ./variable.sh
+  369  clear
+  370  ./variable.sh
+  371  systemctl status httpd 
+  372  systemctl status http
+  373  systemctl status ssh
+  374  systemctl status ssh | awk 'NR=3 {print $0}' 
+  375  clear
+  376  systemctl status ssh | awk 'NR=3 {print $0}' 
+  377  clear
+  378  systemctl status ssh | awk 'NR==3 {print $0}' 
+  379  systemctl status ssh | awk 'NR==4 {print $0}' 
+  380  systemctl status ssh | awk 'NR==5 {print $0}' 
+  381  ls -l
+  382  ls -l | awk '{print $0}' 
+  383  ls -l | awk 'NR>1 {print $NF}' 
+  384  l -l
+  385  ls -l
+  386  ls -1
+  387  cat sample.log
+  388  awk '$2>"08:51:00" && $2<"08:51:11" {print}' sample.log
+  389  awk '$2>"08:51:00" && $2<"08:51:11" {print $2}' sample.log
+  390  clear
+  391  ls -l
+  392  ls -l | awk '$6=="Jul 13" {print $6
+  393  ls -l | awk '$6=="Jul 13" {print $6}'
+  394  ls -l | awk '$6=="Jul 13"
+  395  ls -l | awk '$6=="Jul 13"'
+  396  ls -l | awk '$6=="Jul 13" {print $6}'
+  397  ls -l | awk '$6=="Jul" {print $6}'
+  398  ls -l | awk '$6=="Jul"'
+  399  ls -l | awk '$6=="Jul 13"' | tee july 
+  400  ls -l
+  401  cat july 
+  402  ls -l | awk '$6=="Jul" && $6=="13"' | tee jjuly
+  403  cat july
+  404  ls -l | awk '$6=="Jul" && $6=="13"' | tee -a july
+  405  cat july
+  406  ls -l | awk '$6=="Jul" && $6=="13"' | tee july
+  407  cat july
+  408  cat jjuly
+  409  ls -l
+  410  cat july
+  411  rm july 
+  412  rm jjuly 
+  413  ls -l | awk '$6=="Jul" && $7=="13"' | tee july 
+  414  clear
+  415  cat july
+  416  awk '/Jul/Oct/ {print $0}' july
+  417  awk '/Jul/Oct {print $0}' july
+  418  awk '{gsub("Jul","Oct"); print $0}' july
+  419  cat july
+  420  clear
+  421  history | touch History 
+  422  cat History 
+  423  history > History 
+  424  cat History 
+  425  clear 
+  426  cd /home/ubuntu 
+  427  ls -l
+  428  cd Scripts
+  429  ls -l
+  430  vim Input.sh
+  431  ls -l
+  432  chmod u+x Input.sh
+  433  ls -l
+  434  ./Input.sh 
+  435  vim Input.sh
+  436  ./Input.sh 
+  437  vim Input.sh
+  438  ./Input.sh 
+  439  vim Input.sh
+  440  ./Input.sh 
+  441  clear
+  442  vim Input.sh
+  443  ./Input.sh 
+  444  vim Input.sh
+  445  vim arguments.sh
+  446  chmod u+x arguments.sh
+  447  ./arguments.sh
+  448  vim arguments.sh
+  449  ./arguments.sh
+  450  ./arguments.sh Vibhuti 23
+  451  vim arguments.sh
+  452  cd /home/ubuntu/Scripts
+  453  ls -l
+  454  vim arguments.sh
+  455  ./arguments.sh
+  456  vim arguments.sh
+  457  ./arguments.sh
+  458  ./arguments.sh Vibhuti 20
+  459  ./arguments.sh Vibhuti 15
+  460  clear
+  461  vim Day4_task.sh
+  462  chmod u+x Day4_task.sh
+  463  ./Day4_task.sh
+  464  vim Day4_task.sh
+  465  ./Day4_task.sh
+  466  ./Day4_task.sh 45 45
+  467  ./Day4_task.sh 45 56
+  468  clear
+  469  vim Day4_task.sh
+  470  ./Day4_task.sh 45 56
+  471  vim Day4_task.sh
+  472  ./Day4_task.sh 45 56
+  473  vim Day4_task.sh
+  474  ./Day4_task.sh 45 56
+  475  ./Day4_task.sh 45 45
+  476  clear
+  477  ls -l
+  478  cd ..
+  479  ls -l
+  480  cat Fruits.txt
+  481  clear
+  482  pwd
+  483  cat Fruits.txt
+  484  sed '1 a Black Grapes" Fruits.txt 
+  485  sed '1a BlackGrapes'  Fruits.txt 
+  486  ls -l
+  487  color.txt
+  488  vim color.txt 
+  489  sort color.txt -o sorted_color.txt 
+  490  sort Fruits.txt -o sorted_Fruits.txt
+  491  ls -l 
+  492  rm Fruits.txt color.txt
+  493  comm -12 sorted_color.txt sorted_Fruits.txt
+  494  cd Scripts
+  495  ls -ltr
+  496  vim Day4_task.sh
+  497  vim Tasks.sh
+  498  ./Tasks.sh 
+  499  chmod u+x Tasks.sh
+  500  ./Tasks.sh 
+  501  vim Tasks.sh
+  502  ./Tasks.sh 
+  503  vim Tasks.sh
+  504  ./Tasks.sh 
+  505  clear
+  506  ls -l
+  507  vim Day4_task.sh
+  508  ./Day4_task.sh
+  509  ./Day4_task.sh 34 45
+  510  ./Day4_task.sh 50 50
+  511  ./Day4_task.sh 54 34
+  512  clear
+  513  cd /home/ubuntu
+  514  ls -l
+  515  cd Scripts
+  516  ls -l
+  517  vim arg.sh
+  518  chmod u+x arg.sh
+  519  ./arg.sh
+  520  vim arg.sh
+  521  ./arg.sh
+  522  ./arg.sh Vibhuti Sulabh 
+  523  vim arg.sh
+  524  ./arg.sh
+  525  vim arg.sh
+  526  ./arg.sh
+  527  vim arg.sh
+  528  ./arg.sh
+  529  vim arg.sh
+  530  ./arg.sh
+  531  vim arg.sh
+  532  ./arg.sh
+  533  vim arg.sh
+  534  clear
+  535  vim string.sh
+  536  chmod u+x string.sh
+  537  ./string.sh
+  538  vim string.sh
+  539  ./string.sh
+  540  vim string.sh
+  541  ./string.sh
+  542  vim string.sh
+  543  ./string.sh
+  544  vim string.sh
+  545  ./string.sh
+  546  vim string.sh
+  547  ./string.sh
+  548  vim string.sh
+  549  ./string.sh
+  550  vim string.sh
+  551  ./string.sh
+  552  vim string.sh
+  553  ./string.sh
+  554  clear
+  555  vim Default.sh
+  556  chmod u+x Default.sh
+  557  ./Default.sh
+  558  vim Default.sh
+  559  ./Default.sh
+  560  vim Default.sh
+  561  ./Default.sh
+  562  vim Default.sh
+  563  ./Default.sh
+  564  clear
+  565  vim Default.sh
+  566  ./Default.sh
+  567  vim Default.sh
+  568  ./Default.sh
+  569  ls -l
+  570  cat usr_mgm.sh
+  571  vim usr_mgm.sh
+  572  cat us-mgm.sh 
+  573  cat user-mgm.sh 
+  574  vim user-mgm.sh 
+  575  vim Default.sh
+  576  ./Default.sh
+  577  ls -l
+  578  rm usr_mgm.sh 
+  579  ls -l
+  580  clear 
+  581  cd/home/ubuntu
+  582  cd /home/ubuntu
+  583  cd Scripts
+  584  ls -ltr
+  585  mv file1.txt file.sh
+  586  chmod u+x file1.sh
+  587  ls -ltr
+  588  chmod u+x file.sh
+  589  vim file.sh 
+  590  ./file.sh
+  591  vim file.sh 
+  592  ./file.sh
+  593  vim file.sh 
+  594  ./file.sh
+  595  vim file.sh 
+  596  ./file.sh
+  597  clear
+  598  cd ..
+  599  pwd
+  600  exit
+  601  clear
+  602  cd /home/ubuntu
+  603  ls -l
+  604  cd Scripts
+  605  ls -l
+  606  vim Directory.sh
+  607  chmod u+x Directory.sh
+  608  ./Directory.sh
+  609  vim Directory.sh
+  610  ./Directory.sh
+  611  cd ..
+  612  ls -l
+  613  cd ..
+  614  ls -lt
+  615  ls -l
+  616  find -name Devops 
+  617  cd /home/ubuntu/Scripts
+  618  ./Directory.sh
+  619  ls -l
+  620  vim Directory.sh
+  621  ./Directory.sh
+  622  cd ..
+  623  ls -ltr
+  624  rm GRAE3274.GIF
+  625  LS -L
+  626  ls -l
+  627  cd Scripts
+  628  ls -ltr
+  629  vim Directory.sh
+  630  ./Directory.sh
+  631  ls -ltr
+  632  vim Directory.sh
+  633  ./Directory.sh
+  634  ls -l
+  635  vim Directory.sh
+  636  ./Directory.sh
+  637  rm -R Sunny 
+  638  rm -R Vibhuti 
+  639  cd ..
+  640  ls -l
+  641  cd Scripts
+  642  ls -l
+  643  vim Directory.sh
+  644  ./Directory.sh
+  645  vim Directory.sh
+  646  ./Directory.sh
+  647  ls -l
+  648  vim Directory.sh
+  649  ./Directory.sh
+  650  ls -ltr
+  651  vim Directory.sh
+  652  ./Directory.sh
+  653  ls -l
+  654  vim Directory.sh
+  655  ./Directory.sh
+  656  ls -l
+  657  vim Directory.sh
+  658  ./Directory.sh
+  659  ls -l
+  660  rm -R Nirja 
+  661  rm -R Friends
+  662  rm -R Mona
+  663  ls -l
+  664  rm -R Bibi 
+  665  rm -R DIDI
+  666  rm -R Bhootnath
+  667  ls -l
+  668  rm -R Devops
+  669  ls -l
+  670  clear
+  671  ls -l
+  672  vim file.sh
+  673  vim Task.sh
+  674  ls -l
+  675  rm Task.sh
+  676  vim Tasks.sh
+  677  vim user-mgm.sh
+  678  vim variable.sh
+  679  vim file.sh
+  680  vim Input.sh
+  681  vim Function.sh
+  682  chmod u+x Function.sh
+  683  ./Function.sh
+  684  vim Function.sh
+  685  ./Function.sh
+  686  vim Function.sh
+  687  ./Function.sh
+  688  vim Function.sh
+  689  clear
+  690  ls -l
+  691  vim user-mgm.sh
+  692  ./user-mgm.sh
+  693  vim user-mgm.sh 
+  694  ./user-mgm.sh
+  695  vim user-mgm.sh 
+  696  ./user-mgm.sh
+  697  clear
+  698  cd ..
+  699  passwd ubuntu
+  700  sudo passwd ubuntu 
+  701  cd Scripts 
+  702  ls -l
+  703  ./user-mgm.sh
+  704  vim user-mgm.sh 
+  705  ./user-mgm.sh
+  706  clear
+  707  ls -l
+  708  clear
+  709  pwd
+  710  ls -ltr
+  711  cd Scripts
+  712  ls -l
+  713  vim Directory.sh
+  714  vim directory.shw
+  715  rm directory.shw directory.sh
+  716  mv directory.shw directory.sh
+  717  ls -l
+  718  vim directory.sh
+  719  clear
+  720  cd /Scripts
+  721  pwd
+  722  cd Scripts
+  723  ls -l
+  724  vim directory.sh
+  725  chmod u+x directory.sh
+  726  ./directory 
+  727  ./directory.sh 
+  728  vim directory.sh
+  729  ./directory.sh Day 1 10
+  730  vim directory.sh
+  731  ./directory.sh 
+  732  clear
+  733  ls -lt
+  734  rm Day{1..10}
+  735  rm -R Day{1..10}
+  736  ls -l
+  737  ./directory.sh 
+  738  ls -l
+  739  vim directory.sh
+  740  clear
+  741  cd Scripts
+  742  ls -l
+  743  rm -R Day{1..10}
+  744  vim directory.sh
+  745  ./directory.sh Day 1 10
+  746  clear
+  747  cd Scripts
+  748  ls -ltr
+  749  rm -R Day{1..10}
+  750  vim directory.sh
+  751  clear
+  752  cd Scripts
+  753  ls -l
+  754  echo $0
+  755  clear
+  756  echo $0
+  757  cat etc/shells
+  758  cat /etc/shells
+  759  pwd
+  760  cd Scripts
+  761  ls -l
+  762  vim variable.sh
+  763  vim project1.sh
+  764  chmod +x project1.sh
+  765  ./project1.sh 
+  766  ls -l
+  767  ./project1.sh
+  768  bash project1.sh
+  769  vim project1.sh
+  770  ./project1.sh
+  771  vim project1.sh
+  772  ./project1.sh
+  773  sudo userdel Nita
+  774  vim project1.sh
+  775  ./project1.sh
+  776  cat /etc/passwd
+  777  clear
+  778  cat /etc/group 
+  779  sudo userdel ${username} 
+  780  sudo -f userdel ${username} 
+  781  cat /etc/passwd
+  782  sudo userdel ${username} 
+  783  sudo -r userdel ${username} 
+  784  clear
+  785  sudo userdel Nita
+  786  vim project1.sh
+  787  ./project1.sh
+  788  cat /etc/passwd
+  789  cat /etc/groups 
+  790  cat /etc/group
+  791  sudo userdel Bina
+  792  clear
+  793  vim project1.sh
+  794  ./project1.sh 
+  795  sudo userdel Akshay
+  796  vim project1.sh
+  797  ./project1.sh 
+  798  cat /etc/group 
+  799  sudo userdel Akshay 
+  800  sudo groupdel Developer 
+  801  vim project1.sh
+  802  ./project1.sh 
+  803  sudo groupdel Developer 
+  804  sudo userdel Akshay 
+  805  vim project1.sh
+  806  ./project1.sh 
+  807  cat /etc/group 
+  808  sudo groupdel Support 
+  809  vim project1.sh
+  810  clear
+  811  ls -l
+  812  vim directory.sh
+  813  vim Directory.sh
+  814  pwd
+  815  cd Scripts
+  816  ls -l
+  817  vim Arrays.sh
+  818  cd Scripts
+  819  ls -l
+  820  vim Array.sh
+  821  chmod +x Array.sh
+  822  ./Array.sh
+  823  vim Array.sh
+  824  ./Array.sh
+  825  clear
+  826  vim Array.sh
+  827  ./Array.sh
+  828  vim Array.sh
+  829  ./Array.sh
+  830  vim Array.sh
+  831  ./Array.sh
+  832  vim Array.sh
+  833  ./Array.sh
+  834  vim Array.sh
+  835  ./Array.sh
+  836  vim Array.sh
+  837  ./Array.sh
+  838  vim Array.sh
+  839  ./Array.sh
+  840  clear
+  841  vim Array.sh
+  842  ./Array.sh
+  843  vim Array.sh
+  844  ./Array.sh
+  845  ls -l
+  846  vim string.sh
+  847  clear
+  848  pwd
+  849  cd Scriptds
+  850  cd Scripts
+  851  ls -l
+  852  vim user_for.sh
+  853  chmod +x user_for.sh
+  854  ./user_for.sh 
+  855  ./user_for.sh 1 5 Virus 
+  856  cat /etc/passwd
+  857  sudo userdel virus{1..5} 
+  858  sudo userdel virus1
+  859  cat /etc/passwd
+  860  sudo userdel Virus1
+  861  sudo userdel Virus2
+  862  sudo userdel Virus3
+  863  sudo userdel Virus4
+  864  sudo userdel Virus5
+  865  cat /etc/passwd
+  866  clear
+  867  vim user_for.sh
+  868  ./user_for.sh 
+  869  cat /etc/passwd
+  870  sudo userdel Virus1
+  871  sudo userdel Shubhash2
+  872  sudo userdel Piya3
+  873  sudo userdel Farhan4
+  874  sudo userdel Raju5
+  875  cat /etc/passwd
+  876  clear
+  877  vim user_for.sh
+  878  ./user_for.sh
+  879  vim user_for.sh
+  880  clear
+  881  cat /etc/passwd
+  882  sudo userdel Bhavana
+  883  clear
+  884  ./user_for.sh
+  885  sudo userdel Bhavana
+  886  vim user_for.sh
+  887  ./user_for.sh
+  888  vim user_for.sh
+  889  ./user_for.sh
+  890  vim user_for.sh
+  891  sudo userdel Bhavana
+  892  cat /etc/passwd
+  893  ./user_for.sh
+  894  vim user_for.sh
+  895  ./user_for.sh
+  896  cat /etc/passwd
+  897  clear
+  898  vim user_del.sh
+  899  ./user_del.sh 
+  900  chmod +x uer_del.sh
+  901  chmod +x user_del.sh
+  902  ./user_del.sh 
+  903  cat /etc/passwd
+  904  ./user_del.sh 
+  905  cat /etc/passwd
+  906  clear
+  907  ls -l
+  908  vim project1.sh
+  909  exit 
+  910  clear
+  911  cd Scripts
+  912  ls -l
+  913  vim project1.sh
+  914  ./project1.sh
+  915  vim project1.sh
+  916  clear
+  917  ./project1.sh
+  918  vim project1.sh
+  919  ./project1.sh
+  920  vim project1.sh
+  921  ./project1.sh
+  922  ./project1.sh c
+  923  vim project1.sh
+  924  ./project1.sh c
+  925  cat /etc/passwd
+  926  sudo userdel Komal 
+  927  sudo userdel -r Komal 
+  928  clear
+  929  sudo userdel nilesh 
+  930  clear
+  931  ls -l
+  932  vim string.sh
+  933  ./string.sh 
+  934  vim string.sh
+  935  ./string.sh 
+  936  vim string.sh
+  937  ./string.sh 
+  938  vim string.sh
+  939  ./string.sh 
+  940  clear
+  941  cd Scripts
+  942  ls -l
+  943  vim Backups.sh
+  944  chmod +x Backups.sh 
+  945  ./Backups.sh 
+  946  sudo apt-get install zip 
+  947  clear
+  948  ./Backups.sh 
+  949  vim Backups.sh
+  950  ./Backups.sh /home/ubuntu/Scripts
+  951  ls -l
+  952  vim Backups.sh
+  953  cd ...
+  954  cd ..
+  955  ls -l
+  956  mv Banana Copy
+  957  ls -l
+  958  rm -R Neha
+  959  rm -R Sunny 
+  960  ls -l
+  961  cd Scripts 
+  962  ls -l
+  963  ./Backups.sh
+  964  ./Backups.sh /home/ubuntu/Scripts /home/ubuntu/Copy 
+  965  cd ..
+  966  cd Copy 
+  967  ls -l
+  968  clear
+  969  cd .
+  970  cd ..
+  971  cd Scripts
+  972  ls -l
+  973  cat back01_2024-08-02
+  974  cat back01_2024-08-02.zip 
+  975  clear 
+  976  ls -l
+  977  vim Backups.sh
+  978  ./Backups.sh /home/ubuntu/Scripts /home/ubuntu.Copy 
+  979  vim Backups.sh
+  980  ./Backups.sh /home/ubuntu/Scripts/project1.sh  /home/ubuntu.Copy 
+  981  cd ..
+  982  cd Copy 
+  983  ls -l
+  984  cd ..
+  985  ls -l
+  986  cd Scripts
+  987  ./Backups.sh /home/ubuntu/Scripts/project1.sh  /home/ubuntu/Copy 
+  988  cd ..
+  989  cd Copy 
+  990  ls -l
+  991  clear
+  992  cd ..
+  993  cd Scripts
+  994  clear
+  995  cd Scripts
+  996  ls -l 
+  997  vim project1.sh
+  998  vim Backups.sh
+  999  ./Backups.sh /home/ubuntu/Scripts /home/ubuntu/Copy 
+ 1000  vim Backups.sh
+ 1001  ./Backups.sh /home/ubuntu/Scripts /home/ubuntu/Copy 
+ 1002  vim Backups.sh
+ 1003  ./Backups.sh /home/ubuntu/Scripts /home/ubuntu/Copy 
+ 1004  vim Backups.sh
+ 1005  ./Backups.sh /home/ubuntu/Scripts /home/ubuntu/Copy 
+ 1006  vim Backups.sh
+ 1007  ./Backups.sh /home/ubuntu/Scripts /home/ubuntu/Copy 
+ 1008  vim Backups.sh
+ 1009  clear
+ 1010  cd Scripts 
+ 1011  ls -l
+ 1012  vim Backups.sh
+ 1013  ./Backups.sh /home/ubuntu/Scripts /home/ubuntu/Copy
+ 1014  vim Backups.sh
+ 1015  ./Backups.sh /home/ubuntu/Scripts /home/ubuntu/Copy
+ 1016  cd ..
+ 1017  cd Copy 
+ 1018  ls -l
+ 1019  vim Backups.sh
+ 1020  cd ..
+ 1021  cd Scripts
+ 1022  ls -l
+ 1023  vim Backups.sh
+ 1024  ./Backups.sh /home/ubuntu/Scripts /home/ubuntu/Copy
+ 1025  cd ..
+ 1026  cd Copy
+ 1027  ls -lt
+ 1028  rm Backups.sh 
+ 1029  rm Banana.txt 
+ 1030  ls -lt
+ 1031  cd ..
+ 1032  cd Scripts
+ 1033  vim Backups.sh
+ 1034  ./Backups.sh /home/ubuntu/Scripts /home/ubuntu/Copy
+ 1035  cd ..
+ 1036  cd Copy
+ 1037  ls -ltr
+ 1038  clear
+ 1039  cd ..
+ 1040  pwd
+ 1041  crontab -e
+ 1042  cd Copy
+ 1043  ls -l
+ 1044  rm back* 
+ 1045  ls -l
+ 1046  cd ..
+ 1047  clear
+ 1048  crontab -e
+ 1049  cd Copy
+ 1050  ls -ltr
+ 1051  crontab -l
+ 1052  crontab -e
+ 1053  ls -l
+ 1054  cd ..
+ 1055  cd Copy
+ 1056  ls -l
+ 1057  cd ..
+ 1058  crontab -l
+ 1059  crontab -e
+ 1060  cd Copy 
+ 1061  ls -lt
+ 1062  ls -l
+ 1063  cd ..
+ 1064  pwd
+ 1065  ps -ef
+ 1066  ps aux | grep Backups.sh  
+ 1067  kill 4692 
+ 1068  ps aux | grep Backups.sh  
+ 1069  kill -9 4708 
+ 1070  crontab -e
+ 1071  clear
+ 1072  cd Copy
+ 1073  ls -l
+ 1074  cd ..
+ 1075  ps aux | grep Backups.sh
+ 1076  cd Scripts
+ 1077  ls -l
+ 1078  mkdir Projects
+ 1079  vim Project1.sh
+ 1080  chmod +x Project1.sh 
+ 1081  pwd
+ 1082  cd Projects
+ 1083  ls -l
+ 1084  cd ..
+ 1085  ls -l
+ 1086  mv Project1.sh Projects 
+ 1087  cd Projects
+ 1088  ls -l
+ 1089  ./Project1.sh 
+ 1090  ./Project1.sh Neha
+ 1091  cat /etc/passwd
+ 1092  sudo userdel Neha
+ 1093  vim Project1.sh
+ 1094  ./Project1.sh Neha Support 
+ 1095  sudo userdel Neha
+ 1096  cat /etc/group
+ 1097  clear 
+ 1098  ./Project1.sh Neha Actors
+ 1099  cd ..
+ 1100  pwd
+ 1101  cd /home 
+ 1102  ls -l
+ 1103  clear
+ 1104  cat /etc/passwd
+ 1105  sudo userdel -r Neha 
+ 1106  ls -l
+ 1107  sudo userdel -r Virus{1..5} 
+ 1108  ls -l
+ 1109  sudo userdel -r Virus1
+ 1110  sudo userdel -r Virus2
+ 1111  ls -l
+ 1112  sudo userdel -r nilesh
+ 1113  ls -
+ 1114  ls -l
+ 1115  sudo rm /home/nilesh
+ 1116  sudo rm -R /home/nilesh
+ 1117  sudo rm -R /home/Raju5
+ 1118  sudo rm -R /home/Piya3
+ 1119  sudo rm -R /home/Komal
+ 1120  ls -l
+ 1121  sudo rm -R /home/Farhan4
+ 1122  sudo rm -R /home/Shubhash2
+ 1123  sudo rm -R /home/Virus1
+ 1124  sudo rm -R /home/Virus2
+ 1125  sudo rm -R /home/Virus4
+ 1126  sudo rm -R /home/Virus5
+ 1127  ls -l
+ 1128  clear
+ 1129  cd /ubuntu/Scripts/Project
+ 1130  cd /ubuntu/Scripts/Projects
+ 1131  cd /ubuntu/Scripts
+ 1132  cd ubuntu/Scripts
+ 1133  ls -l
+ 1134  clear
+ 1135  cd Projects
+ 1136  ls -l
+ 1137  vim Project1.sh 
+ 1138  ./Project.sh Neha Actors
+ 1139  ./Project1.sh Neha Actors
+ 1140  vim Project1.sh 
+ 1141  sudo userdel Neha
+ 1142  sudo rm -R /home/Neha
+ 1143  ./Project1.sh Neha Actors
+ 1144  vim Project1.sh 
+ 1145  clear
+ 1146  pwd
+ 1147  cd Scripts
+ 1148  cd ..
+ 1149  pwd
+ 1150  ls -l
+ 1151  mkdir git-tutorial 
+ 1152  ls -l
+ 1153  exit
+ 1154  cd Scripts
+ 1155  ls ==l
+ 1156  ls -l
+ 1157  cd Projects
+ 1158  ls -l
+ 1159  vim Project1.sh
+ 1160  cd ..
+ 1161  cd Backups.sh
+ 1162  vim Backups.sh
+ 1163  cd Projects
+ 1164  ls -l
+ 1165  clear
+ 1166  ls -ll
+ 1167  vim Project1.sh 
+ 1168  cd ..
+ 1169  vim project1.sh
+ 1170  cd Projects
+ 1171  ls -l
+ 1172  vim Project1.sh
+ 1173  cat /etc/passwd
+ 1174  sudo userdel Neha
+ 1175  sudo rm -R Neha 
+ 1176  clear
+ 1177  ./Project1.sh
+ 1178  vim Project1.sh
+ 1179  clear
+ 1180  ./Project1.sh
+ 1181  ./Project1.sh c
+ 1182  clear
+ 1183  vim Project1.sh
+ 1184  ./Project1.sh  
+ 1185  ./Project1.sh  c 
+ 1186  cat /etc/roup 
+ 1187  cat /etc/group 
+ 1188  sudo groupdel c
+ 1189  sudo userdel Mona 
+ 1190  sudo userdel c
+ 1191  sudo rm -R c
+ 1192  sudo rm -R Mona
+ 1193  clear
+ 1194  cd /home/ubunttu 
+ 1195  cd /home/ubuntu 
+ 1196  ls -l
+ 1197  cd ..
+ 1198  ls -l
+ 1199  sudo rm -R Neha 
+ 1200  sudo rm -R c
+ 1201  sudo rm -R Mona 
+ 1202  clear
+ 1203  cd /home/ubuntu/Scripts/Projects
+ 1204  ls l
+ 1205  lls -l
+ 1206  ls -l
+ 1207  vim Project1.sh 
+ 1208  ./Project1.sh 
+ 1209  ./Project1.sh c
+ 1210  vim Project1.sh
+ 1211  ./Project1.sh 
+ 1212  ./Project1.sh c 
+ 1213  ./Project1.sh d 
+ 1214  vim Project1.sh
+ 1215  clear
+ 1216  ./Project1.sh d 
+ 1217  cd /home
+ 1218  ls -l
+ 1219  clear
+ 1220  cd ..
+ 1221  cd ubuntu 
+ 1222  cd /home/ ubuntu 
+ 1223  cd /home/ubuntu 
+ 1224  ls -a 
+ 1225  cd .ssh 
+ 1226  ls -l
+ 1227  vim authorized_keys
+ 1228  cd ..
+ 1229  systemctl status sshd
+ 1230  sudo systemctl status ssh
+ 1231  clear
+ 1232  ping 172.31.20.82 
+ 1233  sudo systemctl status sshd
+ 1234  sudo ufw status
+ 1235  sudo ufw allow ssh
+ 1236  sudo netstat -tuln | grep :22
+ 1237  clear
+ 1238  ssh-keygen 
+ 1239  cd .ssh 
+ 1240  ls -l
+ 1241  vim authorized_keys 
+ 1242  cd ..
+ 1243  pwd
+ 1244  s -l
+ 1245  ls -l
+ 1246  cd git-tutorial 
+ 1247  mkdir devops-project-batch7 
+ 1248  mkdir devops-pratice-project 
+ 1249  ls -l
+ 1250  cd devops-project-batch7 
+ 1251  pwd
+ 1252  git-init 
+ 1253  git init 
+ 1254  clear
+ 1255  ls 
+ 1256  ls -a 
+ 1257  git status
+ 1258  touch laila.txt
+ 1259  touch majnu.txt 
+ 1260  ls -l 
+ 1261  git status 
+ 1262  clear
+ 1263  git add laila.txt
+ 1264  ls -l 
+ 1265  git status
+ 1266  git add majnu.txt 
+ 1267  git status
+ 1268  git rm --cached laila.txt 
+ 1269  git status 
+ 1270  git add laila.txt
+ 1271  git status 
+ 1272  git commit -m "Feat laila and majnu" 
+ 1273  git status 
+ 1274  git log
+ 1275  clear
+ 1276  sudo apt-get install git 
+ 1277  git 
+ 1278  git --version 
+ 1279  clear
+ 1280  cd /home/ubuntu 
+ 1281  ls l
+ 1282  ls -l
+ 1283  cd git-tutorial
+ 1284  ls -ll
+ 1285  cd devops-project-batch7
+ 1286  clear
+ 1287  history 
+ 1288  history > Commands.txt 
