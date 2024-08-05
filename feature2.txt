@@ -2,4 +2,5 @@ This is feature 2
 
 This is git revert tutorial
 
+This is new version of git 
 
