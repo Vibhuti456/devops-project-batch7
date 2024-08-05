@@ -4,4 +4,3 @@ This is git revert tutorial
 
 This is new version of git 
 
-This is error handling msg - need to remove 
